@@ -6,7 +6,7 @@
 
 What if you could build something close to how GPT actually works — not wrap an API, but write the attention mechanism yourself, train weights from a raw text file, and watch a model generate coherent sentences character by character? That's exactly what this project is.
 
-NanoForge GPT is a minimal yet complete implementation of the Transformer decoder architecture, packaged with an interactive Streamlit interface so you can experiment with temperature, sampling strategies, and repetition control in real time. It runs entirely on your local machine — no internet required after setup, no API keys, no external model weights.
+Contexta is a minimal yet complete implementation of the Transformer decoder architecture, packaged with an interactive Streamlit interface so you can experiment with temperature, sampling strategies, and repetition control in real time. It runs entirely on your local machine — no internet required after setup, no API keys, no external model weights.
 
 ---
 
@@ -30,7 +30,7 @@ The goal wasn't to replicate a production-grade LLM. It was to deeply understand
 ## 🗂️ Project Structure
 
 ```
-Contexta/
+NanoForgeGPT/
 │
 ├── app.py              # Streamlit UI — the interactive front end
 ├── gpt.py              # The Transformer model (embeddings, attention heads, blocks)
@@ -79,8 +79,8 @@ At inference time, the model doesn't just pick the most probable next token ever
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/sayankumarnandi2003/NanoForge-GPT.git
-cd NanoForge-GPT
+git clone https://github.com/sayankumarnandi2003/Contexta.git
+cd Contexta
 ```
 
 ### Step 2: Install Dependencies
